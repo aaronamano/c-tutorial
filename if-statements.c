@@ -1,4 +1,5 @@
 // if statements
+// implemented relational operators
 #include <stdio.h>
 
 int main(void){

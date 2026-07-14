@@ -1,4 +1,6 @@
 // if statements
+// implemented relational operators
+// implemented logical operators (aka boolean operators)
 #include <stdio.h>
 
 int main(void){
