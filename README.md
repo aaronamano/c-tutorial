@@ -10,3 +10,5 @@ e.g.
 make hello
 ./hello
 ```
+### Concepts to review
+[Stack vs Heap Memory Allocation](https://www.geeksforgeeks.org/dsa/stack-vs-heap-memory-allocation/)
