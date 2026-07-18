@@ -1,3 +1,4 @@
+// strings-10
 // strings
 #include <stdio.h>
 #include <string.h>

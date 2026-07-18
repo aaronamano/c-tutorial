@@ -1,3 +1,4 @@
+// pointers2
 // pointers
 #include <stdio.h>
 

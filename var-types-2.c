@@ -1,3 +1,4 @@
+// var-types-2
 // variable types and using printf() & scanf()
 #include <stdio.h>
 

@@ -1,3 +1,4 @@
+// pointers5
 // pointers
 // pointer notation vs array notation
 #include <stdio.h>

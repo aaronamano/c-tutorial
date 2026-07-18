@@ -1,3 +1,4 @@
+// memory2
 // dynamically allocated memory
 #include <stdio.h>
 #include <stdlib.h>

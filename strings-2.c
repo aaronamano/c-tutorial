@@ -1,3 +1,4 @@
+// strings-2
 // strings
 #include <stdio.h>
 

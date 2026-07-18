@@ -1,3 +1,4 @@
+// switch-statement-2
 // switch statements
 #include <stdio.h>
 

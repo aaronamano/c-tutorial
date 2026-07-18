@@ -1,3 +1,4 @@
+// memory
 // dynamically allocated memory
 // helps create blocks of memory that we want to resize later on
 // the stack grows down; the heap grows up
