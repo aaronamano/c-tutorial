@@ -6,17 +6,17 @@
 
 int main(void)
 {
-    char s[] = "This IS tHe WaY.";
-    printf("%s\n", s);
+  char s[] = "This IS tHe WaY.";
+  printf("%s\n", s);
 
-    for (int i = 0; i < strlen(s); i++)
-    {
-        if (isupper(s[i]))
-            s[i] = tolower(s[i]);
-        else if (islower(s[i]))
-            s[i] = toupper(s[i]);
-    }
-    printf("%s\n", s);
+  for (int i = 0; i < strlen(s); i++)
+  {
+    if (isupper(s[i]))
+      s[i] = tolower(s[i]);
+    else if (islower(s[i]))
+      s[i] = toupper(s[i]);
+  }
+  printf("%s\n", s);
 
-    return 0;
+  return 0;
 }

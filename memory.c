@@ -21,21 +21,21 @@
 
 int main(void)
 {
-    int *a;
-    // create space to store 5 integers
-    // returns memory address of the block of space using malloc()
-    a = malloc(sizeof(int) * 5);
-    a[0] = 1;
-    a[1] = 5;
-    a[2] = 7;
-    a[3] = 9;
-    a[4] = 11;
+  int *a;
+  // create space to store 5 integers
+  // returns memory address of the block of space using malloc()
+  a = malloc(sizeof(int) * 5);
+  a[0] = 1;
+  a[1] = 5;
+  a[2] = 7;
+  a[3] = 9;
+  a[4] = 11;
 
-    for (int i = 0; i < 5; i++)
-    {
-        printf("a[%d] = %d\n", i, a[i]);
-    }
-    
+  for (int i = 0; i < 5; i++)
+  {
+    printf("a[%d] = %d\n", i, a[i]);
+  }
+  
 
-    return 0;
+  return 0;
 }

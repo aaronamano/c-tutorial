@@ -6,10 +6,10 @@
 
 int main(void)
 {
-    char s[] = "This IS tHe WaY.";
-    s[0] = tolower(s[0]); // converts character at index 0 to lowercase
+  char s[] = "This IS tHe WaY.";
+  s[0] = tolower(s[0]); // converts character at index 0 to lowercase
 
-    printf("%s\n", s);
-    
-    return 0;
+  printf("%s\n", s);
+  
+  return 0;
 }

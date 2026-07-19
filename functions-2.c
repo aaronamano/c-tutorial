@@ -7,17 +7,17 @@ int find_max(int a, int b);
 
 int main(void)
 {
-    int max = find_max(10, 12);
-    printf("max number is %d\n", max);
+  int max = find_max(10, 12);
+  printf("max number is %d\n", max);
 
-    return 0;
+  return 0;
 }
 
 // function definition
 int find_max(int a, int b)
 {
-    if (a > b)
-        return a;
-    else
-        return b;
+  if (a > b)
+    return a;
+  else
+    return b;
 }

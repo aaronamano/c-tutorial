@@ -5,13 +5,13 @@
 
 int main(void)
 {
-    char s1[50] = "The first sentence. ";
-    char s2[] = "The second sentence.";
+  char s1[50] = "The first sentence. ";
+  char s2[] = "The second sentence.";
 
-    // concatenates/merges both strings
-    strcat(s1, s2);
+  // concatenates/merges both strings
+  strcat(s1, s2);
 
-    printf("s1: %s\n", s1);
+  printf("s1: %s\n", s1);
 
-    return 0;
+  return 0;
 }

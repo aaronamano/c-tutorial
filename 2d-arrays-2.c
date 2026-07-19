@@ -14,35 +14,35 @@ void inputArray(int data[ROWS][COLS]);
 
 int main(void)
 {
-    int data[ROWS][COLS] = {0}; // initializes all the values to 0
+  int data[ROWS][COLS] = {0}; // initializes all the values to 0
 
-    inputArray(data);
-    printArray(data);
+  inputArray(data);
+  printArray(data);
 
-    return 0;
+  return 0;
 }
 
 void printArray(int data[ROWS][COLS])
 {
-    for (int i = 0; i < ROWS; i++)
+  for (int i = 0; i < ROWS; i++)
+  {
+    for (int j = 0; j < COLS; j++)
     {
-        for (int j = 0; j < COLS; j++)
-        {
-            printf("data[%d][%d] = %d\n", i, j, data[i][j]);
-        }
+      printf("data[%d][%d] = %d\n", i, j, data[i][j]);
     }
+  }
 }
 
 void inputArray(int data[ROWS][COLS])
 {
-    for (int i = 0; i < ROWS; i++)
+  for (int i = 0; i < ROWS; i++)
+  {
+    for (int j = 0; j < COLS; j++)
     {
-        for (int j = 0; j < COLS; j++)
-        {
-            printf("data[%d][%d] = ", i, j);
-            scanf("%d", &data[i][j]);
-        }
+      printf("data[%d][%d] = ", i, j);
+      scanf("%d", &data[i][j]);
     }
+  }
 }
 
 // 2d arrays are passed by reference!

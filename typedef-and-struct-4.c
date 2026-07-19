@@ -5,33 +5,33 @@
 
 typedef struct
 {
-    char firstname[50];
-    char lastname[50];
-    int age;
+  char firstname[50];
+  char lastname[50];
+  int age;
 } Student;
 
 void printStudent(Student s);
 
 int main(void)
 {
-    Student s1;
-    s1.age = 20;
-    strcpy(s1.firstname, "Devon");
-    strcpy(s1.lastname, "Smith");
+  Student s1;
+  s1.age = 20;
+  strcpy(s1.firstname, "Devon");
+  strcpy(s1.lastname, "Smith");
 
-    printStudent(s1);
-    printf("\n%s %s\n", s1.firstname, s1.lastname); // prints same values that were originally defined
-    printf("\nAge: %d\n", s1.age); // prints same value that was originally defined
+  printStudent(s1);
+  printf("\n%s %s\n", s1.firstname, s1.lastname); // prints same values that were originally defined
+  printf("\nAge: %d\n", s1.age); // prints same value that was originally defined
 
-    return 0;
+  return 0;
 }
 
 void printStudent(Student s)
 {
-    printf("%s %s\n", s.firstname, s.lastname);
-    printf("Age: %d\n", s.age);
-    s.age = 25; // modification doesn't affect the struct
-    s.firstname[0] = 'K'; // modification doesn't affect the struct
+  printf("%s %s\n", s.firstname, s.lastname);
+  printf("Age: %d\n", s.age);
+  s.age = 25; // modification doesn't affect the struct
+  s.firstname[0] = 'K'; // modification doesn't affect the struct
 }
 
 // ultimately, structs are passed by value
