@@ -1,5 +1,5 @@
 // constants4
-// constants with define vs constant variables
+// Global scope variables
 #include <stdio.h>
 #include <stdlib.h>
 
